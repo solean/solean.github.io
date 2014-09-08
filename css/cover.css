@@ -84,6 +84,7 @@ body {
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
+  /*text-shadow: none;*/
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
@@ -118,6 +119,10 @@ body {
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
+}
+
+.resume {
+  text-align: left;
 }
 
 
@@ -164,3 +169,25 @@ body {
     width: 700px;
   }
 }
+.cover-heading {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.email {
+    color: orange;
+    font-style: italic;
+}
+
+
+
+.resume-list {
+    list-style-type: square;
+}
+
+li {
+    font-size: 16px;
+    text-align: left;
+    padding-left: 10px;
+}
+
