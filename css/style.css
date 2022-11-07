@@ -22,3 +22,10 @@ body {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
